@@ -66,26 +66,3 @@ else  % M ==> even
 end
 Sn=TempSp;
 SDn=TempSDp;
-
-
-% TempSp=Sp(1:M,:);
-% if(mod(M,2)) % M ==> odd
-%    i=1:1:M;
-%    TempSp(i,:)=-TempSp(i,:);
-% else  % M ==> even
-%    i=1:1:M-1;
-%    TempSp(i,:)=TempSp(i,:);
-% end
-% Sn=TempSp;
-% 
-% TempSDp=SDp(1:M,:);
-% if(mod(M,2)) % M ==> odd
-%    i=1:1:M;
-%    TempSDp(i,:)=-TempSDp(i,:);
-% else 
-%    i=1:1:M-1;
-%    TempSDp(i,:)=TempSDp(i,:);
-% end
-% SDn=TempSDp;
-% 
-% 
